@@ -76,7 +76,7 @@ p {
     margin: 0px 24px;
 }
 
-#blog-image {
+.blog-image {
     border-radius: 10px;
     height: 200px;
     width: 100%;
@@ -97,7 +97,7 @@ a {
     color: hsl(47, 88%, 63%);
 }
 
-#learning {
+.learning {
     background-color: hsl(47, 88%, 63%);
     padding: 4px 12px;
     border-radius: 4px;
@@ -106,11 +106,11 @@ a {
     margin: 0;
 }
 
-#date {
+.date {
     font-size: 14px;
 }
 
-#description {
+.description {
     color: hsl(0, 0%, 42%);
     margin: 0px;
 }
@@ -127,7 +127,7 @@ a {
     margin-right: 12px;
 }
 
-.author h4 {
+.author h2 {
     margin: 0;
     font-size: 14px;
 }
@@ -152,8 +152,8 @@ a {
         font-size: 20px;
     }
 
-    #learning,
-    #date {
+    .learning,
+    .date {
         font-size: 12px;
     }
 }
