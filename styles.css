@@ -1,7 +1,7 @@
 /* Оголошення основного шрифту VariableFont */
 @font-face {
     font-family: 'Figtree';
-    src: url('fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf) format('truetype');
     font-weight: 100 900;
     font-style: normal;
 }
@@ -9,7 +9,7 @@
 /* Оголошення шрифту Italic */
 @font-face {
     font-family: 'Figtree';
-    src: url('fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf) format('truetype');
     font-weight: 100 900;
     font-style: italic;
 }
@@ -17,7 +17,7 @@
 /* Оголошення шрифту ExtraBold */
 @font-face {
     font-family: 'Figtree';
-    src: url('fonts/Figtree-ExtraBold.ttf') format('truetype');
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf) format('truetype');
     font-weight: 800;
     font-style: normal;
 }
@@ -25,7 +25,7 @@
 /* Оголошення шрифту SemiBold */
 @font-face {
     font-family: 'Figtree';
-    src: url('fonts/Figtree-SemiBold.ttf') format('truetype');
+    src: url(assets/fonts/static/Figtree-SemiBold.ttf) format('truetype');
     font-weight: 600;
     font-style: normal;
 }
@@ -48,16 +48,17 @@ body {
     align-items: center;
     height: 100vh;
     justify-content: center;
+    color: hsl(0, 0%, 7%);
 }
 
 h1,
 p {
-    color: hsl(0, 0%, 7%);
     margin: 12px 0px;
 }
 
 h1 {
     font-size: 24px;
+    font-weight: 800;
 }
 
 p {
@@ -89,6 +90,7 @@ p {
 
 a {
     text-decoration: none;
+    color: hsl(0, 0%, 7%);
 }
 
 .content a:hover h1 {
@@ -125,14 +127,20 @@ a {
     margin-right: 12px;
 }
 
-.author p {
+.author h4 {
     margin: 0;
     font-size: 14px;
 }
 
 .attribution {
     position: fixed;
-    top: 95%
+    top: 95%;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
 
 @media screen and (max-width: 375px) {
